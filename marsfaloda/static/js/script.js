@@ -359,20 +359,20 @@
 
 			var regularConstraintsMessages = [
 				{
-					type: regula.Constraint.Required,
-					newMessage: "The text field is required."
+					type: regula.Constraint.Required,	
+					newMessage: "A szövegmező kitöltése kötelező."
 				},
 				{
 					type: regula.Constraint.Email,
-					newMessage: "The email is not a valid email."
+					newMessage: "Nem hiteles email cím."
 				},
 				{
 					type: regula.Constraint.Numeric,
-					newMessage: "Only numbers are required"
+					newMessage: "Csak szám engedélyezett , de az kötelező."
 				},
 				{
 					type: regula.Constraint.Selected,
-					newMessage: "Please choose an option."
+					newMessage: "Kérem válasszon egy lehetőséget.."
 				}
 			];
 
